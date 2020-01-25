@@ -1,14 +1,28 @@
-# Cache
-__pycache__
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.pyc
+*.pptx
+*.ppt
+*.h5
+*.zip
+*.7z
+*.pickle
 
-# OS
-.DS_Store
+~$*
+__pycache__/
 
-# IDE
-.vscode
-
-# Settings
-.envrc
-
-# DB
-app.db
+.idea
+*.swp
+tags
+.coverage
+.ipynb_checkpoints/
+build/
+dist/
+venv/
+*.egg-info/
+.vscode/
+.cache/
+*.sqlite
+credentials.json
